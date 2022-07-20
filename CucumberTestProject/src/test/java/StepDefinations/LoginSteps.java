@@ -28,8 +28,8 @@ public class LoginSteps {
 		System.out.println("user enter username and password1");
 		//Locator for username field
 		
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("test.admin41");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("test41-hassan");
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("");
 		driver.findElement(By.xpath("//*[@id=\"frmlogin\"]/div/table/tbody/tr[3]/td[2]/select/option[4]")).click();
 		
 	}
